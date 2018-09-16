@@ -38,14 +38,8 @@ public class Person {
         this.gender = gender;
   }
 
-    private enum gender {
-        MALE,
-        FEMALE,
-        UNKNOWN
-    }
-
     public void setFirstName(String fname) {
-        this.firstName = this.gender;
+        this.firstName = fname;
     }
     
     public void setLastName(String lname) {
